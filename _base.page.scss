@@ -17,10 +17,10 @@
  *    render text using sub-pixel anti-aliasing.
  */
 html {
-    font-size: ($aleut-base-font-size / 16px) * 1em; /* [1] */
-    line-height: $aleut-base-line-height / $aleut-base-font-size; /* [1] */
-    background-color: $aleut-base-background-color;
-    color: $aleut-base-text-color;
+    font-size: ($font-size / 16px) * 1em; /* [1] */
+    line-height: $line-height / $font-size; /* [1] */
+    background-color: $background-color;
+    color: $text-color;
     overflow-y: scroll; /* [2] */
     min-height: 100%; /* [3] */
     -webkit-text-size-adjust: 100%; /* [4] */
