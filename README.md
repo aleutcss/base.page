@@ -11,4 +11,6 @@ global, page-level aspects on the `html`-tag. It sets:
 
 ## Install using npm:
 
+```shell
     $ npm install --save-dev aleut-page
+```
